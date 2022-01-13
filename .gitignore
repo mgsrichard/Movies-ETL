@@ -5,7 +5,9 @@ __pycache__/
 
 # C extensions
 *.so
-
+config.*
+ratings.csv
+movies_metadata.csv
 # Distribution / packaging
 .Python
 build/
