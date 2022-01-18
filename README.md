@@ -1,7 +1,7 @@
 # Movies-ETL (Extract Transform Load)
 ## ETL project for AmazingPrime Hackathon 
 
-This week's work was cleaning up and merging data from Wikipedia and ratings from MovieLens via Kaggle for more than 6,000 movies.  The deliverable files represent different stages of the data work. The four deliverables and their purposes are:
+This week's work was cleaning up and merging movie data from Wikipedia and movie metadata and ratings from MovieLens via Kaggle for more than 6,000 movies.  The deliverable files represent different stages of the data work. The four deliverables and their purposes are:
 
 ### Deliverable 1: Write an ETL Function to Read Three Data Files - ETL_function_test.ipynb
 The first deliverable creates a function called hackathon_bring_in_data() that reads in the three data files and stores each of them in their own DataFrames.  The three files are the Wikipedia movie data, the Kaggle movie metadata, and the Kaggle ratings data. At the end of the file are rows of code that look at the top of the three DataFrames created to be sure they imported correctly.
